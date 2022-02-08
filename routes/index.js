@@ -13,22 +13,22 @@ router.get('/home', function(req, res, next) {
 
 /* GET About page. */
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+  res.render('about', { title: 'About' });
 });
 
-/* GET Services page. */
+/* GET Products page. */
 router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+  res.render('products', { title: 'Products' });
 });
 
-/* GET about us page. */
+/* GET services page. */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 /* GET Contact us page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
