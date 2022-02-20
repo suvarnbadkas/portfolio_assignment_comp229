@@ -33,7 +33,7 @@
     "serve-favicon": "^2.5.0"
   },
   "description": "portfolio app for comp229",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suvarnbadkas/portfolio_assignment_comp229.git"
